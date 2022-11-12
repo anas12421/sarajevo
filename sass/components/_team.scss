@@ -1,0 +1,124 @@
+.team_head {
+  padding-bottom: 105px;
+}
+
+.team_head h2 {
+  padding-top: 90px;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  color: #4c76ff;
+  padding-bottom: 12px;
+  font-size: 28px;
+}
+
+.team_head p {
+  padding-top: 24px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.team_img{
+  position: relative;
+  overflow: hidden;
+}
+
+.team_img img{
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.team_item:hover .team_img img{
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.team_ol{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #4c76ffe0;
+  transform: scale(0);
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.team_item:hover .team_ol{
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
+
+.team_ol h3 {
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: white;
+  padding-top: 100px;
+}
+
+.team_ol h4 {
+  font-size: 13px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 10px;
+  color: white;
+}
+
+.team_ol_social{
+  padding-top: 60px;
+}
+.team_ol_social i{
+  height: 35px;
+  width: 35px;
+  background-color: #3551aedf;
+  color: white;
+  line-height: 35px;
+  margin: 0 4px;
+  animation: icon_animate 4s linear infinite;
+  -webkit-animation: icon_animate 4s linear infinite;
+}
+
+.team_text h2{
+  font-weight: 600;
+  color: black;
+  padding-top: 18px;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-family: 'Open Sans', sans-serif;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.team_item:hover .team_text h2{
+  color: #1cb899;
+}
+
+.team_text p{
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  text-transform: capitalize;
+  padding-top: 5px;
+}

@@ -1,0 +1,90 @@
+.menu{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.menu_ex{
+  background-color: #4770f1;
+  animation: menu_ex 1s;
+  -webkit-animation: menu_ex 1s;
+}
+
+@keyframes menu_ex {
+  0%{
+    top: -50px;
+  }
+  100%{
+    top: 0;
+  }
+  
+}
+
+
+.menu_logo span{
+  margin-left: 30px;
+  padding-left: 20px;
+  border-left: 1px solid #4770f1;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  color: white;
+}
+
+.menu ul li{
+  margin-left: 25px;
+}
+
+.menu ul li a{
+  padding: 0 !important;
+  color: white !important;
+  padding-top: 17px !important;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+  text-transform: capitalize;
+  position: relative;
+  padding-bottom: 12px !important;
+} 
+
+.menu ul li a::after{
+  position: absolute;
+  content: '';
+  width: 0%;
+  height: 2px;
+  top: 0;
+  left: 0;
+  background-color: #4770f1;
+  transition:all 0.3s ease ;
+  -webkit-transition:all 0.3s ease ;
+  -moz-transition:all 0.3s ease ;
+  -ms-transition:all 0.3s ease ;
+  -o-transition:all 0.3s ease ;
+}
+
+.menu ul li a.active::after{
+  width: 100% !important;
+}
+
+.menu ul li a:hover::after{
+  width: 100%;
+}
+
+
+.menu ul li a.active{
+  color: #4770f1 !important;
+}
+.menu_ex ul li a.active{
+  color: #000 !important;
+}
+
+.menu_ex ul li a::after{
+  background-color: black;
+}
+
+.menu_ex .menu_logo span{
+  border-color: white;
+  font-weight: 300;
+}

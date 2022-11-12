@@ -1,0 +1,281 @@
+@media (max-width: 767.98px) {
+  .menu {
+    background-color: #4770f1;
+    padding: 10px 0 !important;
+  }
+
+
+  .menu button {
+    border: none;
+  }
+
+  .menu button i {
+    font-size: 22px;
+    color: white;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .menu ul li {
+    margin: 0;
+  }
+
+  .menu ul li a.active {
+    color: black !important;
+  }
+
+  .menu ul li a::after {
+    display: none;
+  }
+
+  .banner_txet {
+    text-align: center;
+  }
+
+  .banner_img {
+    padding-top: 30px;
+  }
+
+  .feat_item {
+    text-align: center;
+  }
+
+  .feat_item i {
+    position: inherit;
+    margin-bottom: 15px;
+  }
+
+  .feat_item h2,
+  .feat_item p {
+    padding-left: 0;
+  }
+
+  .tab_item button h2,
+  .tab_item button p {
+    padding-left: 40px;
+  }
+
+  .work_btn ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  .work_btn ul li button {
+    margin: 0;
+  }
+
+  .work_ol_text h2 {
+    font-size: 14px;
+    padding-top: 5px;
+  }
+
+  .work_ol_text p {
+    font-size: 12px;
+  }
+
+  .work_ol_text i {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.team_item {
+  margin-bottom: 20px;
+}
+
+.team_ol h3 {
+  padding-top: 10px;
+}
+
+.team_ol h4 {
+  font-size: 8px;
+  padding-top: 5px;
+}
+
+.team_text h2 {
+  font-size: 14px;
+}
+
+.fact_counter {
+  margin-bottom: 25px;
+}
+
+.fact_counter p {
+  font-size: 12px;
+}
+
+.dis_detail{
+  text-align: center;
+}
+
+
+.dis_detail p {
+  padding-right: 0;
+}
+
+.dis_detail a {
+  padding-right: 0;
+}
+
+.dis_form_head{
+  padding-top: 30px;
+}
+
+.dis_form{
+padding-top: 15px;
+}
+
+.form_btn {
+  text-align: center !important;
+}
+
+.discuss_head {
+  padding-bottom: 40px;
+}
+
+.dis_social{
+  padding-top: 25px;
+}
+
+.dis_social a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer_two h2,
+.footer_three h2 {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.ft_input{
+  margin-top: 15px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (min-width:768px) and (max-width:991.98px) {
+
+    /* .menu {
+      background-color: #4770f1;
+      padding: 10px 0 !important;
+    } */
+  
+  
+    .menu button {
+      border: none;
+    }
+  
+  
+    /* .menu ul li {
+      margin: 0;
+    } */
+  
+    /* .menu ul li a.active {
+      color: black !important;
+    } */
+  
+    /* .menu ul li a::after {
+      display: none;
+    } */
+  
+    .banner_txet {
+      text-align: center;
+    }
+  
+    .banner_img {
+      padding-top: 30px;
+    }
+  
+    .tab_item button p {
+      padding-right: 200px;
+  }
+
+    .work_btn ul {
+      display: flex;
+      justify-content: center;
+    }
+
+  
+  .team_item {
+    margin-bottom: 20px;
+  }
+
+  .dis_detail{
+    text-align: center;
+  }
+  
+  
+  .dis_detail p {
+    padding-right: 0;
+  }
+  
+  .dis_detail a {
+    padding-right: 0;
+  }
+  
+  .dis_form_head{
+    padding-top: 30px;
+  }
+  
+  .dis_form{
+  padding-top: 15px;
+  }
+  
+  .form_btn {
+    text-align: center !important;
+  }
+  
+  .discuss_head {
+    padding-bottom: 40px;
+  }
+  
+  .dis_social{
+    padding-top: 25px;
+  }
+  
+  .dis_social a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+
+  
+  .footer_two h2,
+  .footer_three h2 {
+    padding-top: 50px;
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  }

@@ -1,0 +1,112 @@
+.discuss_head{
+  padding-bottom: 80px;
+}
+.discuss_head h2{
+  padding-top: 130px;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  color: #4c76ff;
+  padding-bottom: 12px;
+  font-size: 28px;
+}
+
+.discuss_head p{
+  padding-top: 50px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+}
+
+.dis_detail h2{
+  font-size: 18px;
+  padding-bottom: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.dis_detail p{
+  font-size: 12px;
+  padding-right: 150px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+}
+.dis_detail a{
+  display: block;
+  color: black;
+  font-size: 12px;
+  padding-right: 150px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.dis_form_head h2{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+
+.dis_form label{
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #bfc3c7;
+  text-transform: capitalize;
+}
+
+.dis_form input{
+  border: none;
+  width: 100%;
+  border-bottom: 1px double #e7e7e7;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: black;
+}
+
+.form_btn{
+  margin-top: 30px;
+}
+.form_btn button{
+  border: none;
+  background-color: transparent;
+  text-transform: capitalize;
+}
+
+.form_btn button i{
+  color: #4c76ff;
+  padding-right: 7px;
+}
+
+.dis_social a{
+  display: block;
+  color: #bfc3c7;
+  padding-bottom: 20px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  font-size: 20px;
+}
+
+.dis_social a:hover{
+  color: #4c76ff;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.map{
+  margin-top: 85px;
+  height: 200px;
+  width: 100%;
+}
+
+.map iframe{
+  height: 100%;
+  width: 100%;
+}
